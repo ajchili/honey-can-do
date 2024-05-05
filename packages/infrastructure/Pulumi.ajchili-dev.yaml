@@ -1,0 +1,8 @@
+# Apparently this is safe to commit
+# https://www.pulumi.com/docs/concepts/secrets/#committing-configuration-to-source-control
+config:
+  digitalocean:spaces_access_id: DO00LJJEVJAYU3G9MHAG
+  digitalocean:spaces_secret_key:
+    secure: AAABACL5WobRJ4Asi9+rdg76wH2/SVQD80vvqmoLCEEzJA+kR0YtXmd3tzcjIRKTIWDo29ukrCeMHjOrFfVv/lgi1XfgEo7E/oJC
+  digitalocean:token:
+    secure: AAABAFRmfke/h38mLA1GDbct/xjXHt1uvNRNR33YRpPHPEi1HoY8cbyTKvcinCEw35FXUeK0d3PECtR5EIXDEHu5m4coR7vl10pyZwu6lZlW/zQMJcThmJbo5ksLPWbcZBFXP7O69w==

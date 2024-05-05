@@ -1,0 +1,11 @@
+{
+  "name": "@honey-can-do/empty",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "turbo": "^1.13.3",
+    "typescript": "^5.4.5"
+  }
+}

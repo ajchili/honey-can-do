@@ -1,0 +1,8 @@
+{
+  "name": "@honey-can-do/infrastructure",
+  "main": "index.ts",
+  "dependencies": {
+    "@pulumi/digitalocean": "^4.28.1",
+    "@pulumi/pulumi": "^3.113.0"
+  }
+}

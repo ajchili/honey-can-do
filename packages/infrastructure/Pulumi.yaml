@@ -1,0 +1,7 @@
+name: honey-can-do
+runtime: nodejs
+description: Pulumi managed infrastructure for honey-can-do app
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: typescript
