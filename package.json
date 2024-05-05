@@ -3,6 +3,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build": "turbo build",
+    "start": "turbo start"
+  },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.4",
     "turbo": "^1.13.3",
