@@ -12,5 +12,16 @@ new digitalocean.App("app", {
   spec: {
     name: "honey-can-do",
     region: digitalocean.Region.NYC3,
+    staticSites: [
+      {
+        name: "website",
+        git: {
+          branch: "main",
+          repoCloneUrl: "https://github.com/ajchili/honey-can-do.git",
+        },
+        buildCommand: "npm run build",
+        outputDir: "packages/asset/dist",
+      },
+    ],
   },
 });

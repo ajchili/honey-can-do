@@ -5,7 +5,9 @@
   ],
   "scripts": {
     "build": "turbo build",
-    "start": "turbo start"
+    "start": "turbo start",
+    "infrastructure:deploy": "cd packages/infrastructure && pulumi up",
+    "infrastructure:clean": "cd packages/infrastructure && pulumi down"
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.4",
